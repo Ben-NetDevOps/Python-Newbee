@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Ben-NetDevOps
+- 👋 Hi, I’m @Ben
 - 👀 I’m interested in Networking
 - 🌱 I’m currently learning Python/Ansible
 - 💞️ I’m looking to collaborate on ...
