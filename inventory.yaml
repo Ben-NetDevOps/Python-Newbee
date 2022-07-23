@@ -2,8 +2,9 @@
 all:
   children:
     SUZ:
-      DEVSUZCORSWP01:
-        ansible_host: 192.168.168.2
+      hosts:
+        DEVSUZCORSWP01:
+          ansible_host: 192.168.168.2
         vars:
           ansible_connection: ansible.netcommon.network_cli
           ansible_network_os: cisco.ios.ios
