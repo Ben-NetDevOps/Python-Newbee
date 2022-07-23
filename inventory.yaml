@@ -1,0 +1,24 @@
+---
+all:
+  children:
+    SUZ:
+      DEVSUZCORSWP01:
+        ansible_host: 192.168.168.2
+        vars:
+          ansible_connection: ansible.netcommon.network_cli
+          ansible_network_os: cisco.ios.ios
+          ansible_user: admin123
+          ansible_password: Cisco@123
+          ansible_become: true
+          ansible_become_method: enable
+          ansible_become_password: Cisco
+
+#juniper:
+#  hosts:
+#    VRX:
+#      ansible_host: 192.168.168.139
+#  vars:
+#    ansible_connection: netconf
+#    ansible_network_os: junipernetworks.junos.junos
+#    ansible_user: netops
+#    ansible_password: juniper123
